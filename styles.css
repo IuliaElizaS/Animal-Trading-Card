@@ -1,0 +1,54 @@
+body {
+  font-size: 16px;
+  font-family: Century, Arial, sans-serif;
+  }
+
+.card {
+  display: block;
+  width: 310px;
+  border: 3px solid #6495ed;
+  border-radius: 10px;
+  background-image: url("savana-background.jpg") /*Foto source: https://pixabay.com/en/africa-namibia-wilderness-landscape-1170004/ */;
+  background-size: cover;
+  padding: 1.25em;
+  box-shadow: 3px 3px 4px 6px #ccc;
+  }
+
+.title {
+  font-size: 26px;
+  color: #f5c291;
+  font-weight: bold;
+  text-align: center;
+  }
+
+.picture,
+.textbox {
+  width: 300px;
+  border-radius: 10px;
+  padding: 0.2em;
+  align-items: center;
+  }
+
+.textbox {
+  display: block;
+  border: 2px dotted #6495ed;
+  background-color: #f5c291ab;
+  }
+
+.fact {
+  font-style: italic;
+  text-align: justify;
+  }
+
+.list {
+  list-style-type: none;
+  padding: 0.5em;
+  }
+
+.characteristics {
+  font-weight: bold;
+  }
+
+.description {
+  text-align: justify;
+  }
